@@ -1,22 +1,187 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
+    font-size: 18px;
 }
 
 h1 {
-
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 0px;
 }
 
 h2 {
-
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 10;
 }
 
 h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px;
+}
 
+p {
+    color: #E5E7EB;
+    margin: 0px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-left: 300px;
+    padding-right: 300px;
+    align-items: center;
+    height: 70px;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+}
+
+.two_column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.hero {
+    width: 450px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: 'Roboto';
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.img_1 {
+    height: 210px;
+    width: 480px;
+}
+
+.two {
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.two_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards_container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.card_img {
+    height: auto;
+    width: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+}
+
+
+.card {
+    width: 175px;
+    text-align: center;
+}
+
+.card p {
+    color: #E5E7EB;
+}
+
+.three {
+    background-color: #E5E7EB;
+    text-align: center;
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 550px;
+    padding-right: 550px
+}
+
+.quote_author {
+    text-align: right;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.four {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.call_to_action {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.signup_2 {
+    border: 2px solid #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
